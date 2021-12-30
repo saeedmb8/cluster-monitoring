@@ -12,7 +12,7 @@
     },
     {
       name: 'armExporter',
-      enabled: false,
+      enabled: true,
       file: import 'modules/arm_exporter.jsonnet',
     },
     {
@@ -32,7 +32,7 @@
     },
     {
       name: 'traefikExporter',
-      enabled: false,
+      enabled: true,
       file: import 'modules/traefik.jsonnet',
     },
     {
@@ -42,7 +42,7 @@
     },
     {
       name: 'speedtestExporter',
-      enabled: false,
+      enabled: true,
       file: import 'modules/speedtest_exporter.jsonnet',
     },
   ],
